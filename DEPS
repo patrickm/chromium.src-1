@@ -165,13 +165,13 @@ deps = {
     (Var("chromium_git")) + '/chromium/deps/acid3.git@6be0a66a1ebd7ebc5abc1b2f405a945f6d871521',
   'src/tools/swarming_client':
     (Var("chromium_git")) + '/external/swarming.client.git@a72f46e42dba1335e8001499b4621acad2d26728',
-  #'src/v8':
-  #  #(Var("chromium_git")) + '/v8/v8.git@27ac00814dcae63b684676385ed2924e3d921be7'
-  #  (Var("nwjs_git")) + '/v8.git@origin/nw14',
-  #'src/content/nw':
-  #  (Var("nwjs_git")) + '/nw.js.git@origin/nw14',
-  #'src/third_party/node':
-  #  (Var("nwjs_git")) + '/node.git@origin/nw14',
+  'src/v8':
+    #(Var("chromium_git")) + '/v8/v8.git@27ac00814dcae63b684676385ed2924e3d921be7'
+    (Var("nwjs_git")) + '/v8.git@origin/nw14',
+  'src/content/nw':
+    (Var("nwjs_git")) + '/nw.js.git@origin/nw14',
+  'src/third_party/node':
+    (Var("nwjs_git")) + '/node.git@origin/nw14',
 }
 
 deps_os = {
